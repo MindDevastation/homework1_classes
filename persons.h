@@ -50,6 +50,8 @@ public:
         int getIndex ();
     void indexIncr();
     void indexDecr();
+
+    ~Persons();
 };
 
 
@@ -71,6 +73,8 @@ class Student : public Persons{
     void resize(QString*& arr);
     void resize(QDate*& arr);
     void resize();
+
+    ~Student();
 };
 
 #endif // PERSONS_H

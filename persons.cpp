@@ -87,3 +87,17 @@ QString Student::getSpeciality (int position){return *(Speciality + position);}
 
 void Student::setGroup (int position, QString newGroup){*(Group + position) = newGroup;}
 QString Student::getGroup (int position){return *(Group + position);}
+
+Persons::~Persons(){
+    delete[] ID;
+    delete[] Surname;
+    delete[] Passport;
+    delete[] AddInfo;
+    delete[] Date;
+}
+
+Student::~Student(){
+    delete[] University;
+    delete[] Speciality;
+    delete[] Group;
+}
