@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="groupSizeLabel">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>       Enter grop size        </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="groupSizeEdit"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="groupSizeEditButton">
+          <property name="text">
+           <string>Set Group Size</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tabWidgetPage1" native="true">
+         <attribute name="title">
+          <string>Add Student Info</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="2" column="0">
+             <layout class="QFormLayout" name="formLayout">
+              <item row="1" column="0">
+               <widget class="QLabel" name="surnameLabel">
+                <property name="text">
+                 <string>Surname</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLineEdit" name="surnameEdit"/>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="pasportLabel">
+                <property name="text">
+                 <string>Passport</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="passportEdit"/>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="dateLabel">
+                <property name="text">
+                 <string>Burth Date</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QDateEdit" name="dateEdit"/>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="universityLabel">
+                <property name="text">
+                 <string>University</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLineEdit" name="universityEdit"/>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="specLabel">
+                <property name="text">
+                 <string>Speciality</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QLineEdit" name="specEdit"/>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="idEdit"/>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="IdLabel">
+                <property name="text">
+                 <string>      ID     </string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QLineEdit" name="groupEdit"/>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="groupLabel">
+                <property name="text">
+                 <string>Group</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="infoLabel">
+                <property name="text">
+                 <string>Additional info</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QLineEdit" name="infoEdit"/>
+              </item>
+              <item row="8" column="1">
+               <widget class="QPushButton" name="addStudent">
+                <property name="text">
+                 <string>Add Student</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="0" colspan="2">
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>------------------------------------------------------ 0 / 1 ------------------------------------------------------</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tabWidgetPage2" native="true">
+         <attribute name="title">
+          <string>Edit Student Info</string>
+         </attribute>
+         <widget class="QWidget" name="layoutWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>0</y>
+            <width>554</width>
+            <height>305</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="2" column="0">
+            <layout class="QFormLayout" name="formLayout_2">
+             <item row="2" column="0">
+              <widget class="QLabel" name="IdLabel_4">
+               <property name="text">
+                <string>      ID     </string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="idEdit_2"/>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="surnameLabel_4">
+               <property name="text">
+                <string>Surname</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="surnameEdit_2"/>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="pasportLabel_4">
+               <property name="text">
+                <string>Passport</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="passportEdit_2"/>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="dateLabel_4">
+               <property name="text">
+                <string>Burth Date</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QDateEdit" name="dateEdit_2"/>
+             </item>
+             <item row="6" column="0">
+              <widget class="QLabel" name="universityLabel_4">
+               <property name="text">
+                <string>University</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QLineEdit" name="universityEdit_2"/>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="specLabel_4">
+               <property name="text">
+                <string>Speciality</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QLineEdit" name="specEdit_2"/>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="groupLabel_4">
+               <property name="text">
+                <string>Group</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QLineEdit" name="groupEdit_2"/>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="infoLabel_4">
+               <property name="text">
+                <string>Additional info</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <widget class="QLineEdit" name="infoEdit_2"/>
+             </item>
+             <item row="10" column="1">
+              <widget class="QPushButton" name="editStudent">
+               <property name="text">
+                <string>Edit Student</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QComboBox" name="comboBox_2">
+               <item>
+                <property name="text">
+                 <string>(none)</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tabWidgetPage3" native="true">
+         <attribute name="title">
+          <string>Show Student Indfo</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="1" colspan="2">
+             <widget class="QComboBox" name="comboBox">
+              <item>
+               <property name="text">
+                <string>(none)</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="IdLabel_2">
+              <property name="text">
+               <string>      ID     </string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="IdLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="surnameLabel_2">
+              <property name="text">
+               <string>Surname</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLabel" name="surnameLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="pasportLabel_2">
+              <property name="text">
+               <string>Passport</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLabel" name="pasportLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0" colspan="2">
+             <widget class="QLabel" name="dateLabel_2">
+              <property name="text">
+               <string>Burth Date</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLabel" name="dateLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0" colspan="2">
+             <widget class="QLabel" name="universityLabel_2">
+              <property name="text">
+               <string>University</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="2">
+             <widget class="QLabel" name="universityLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="specLabel_2">
+              <property name="text">
+               <string>Speciality</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLabel" name="specLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="groupLabel_2">
+              <property name="text">
+               <string>Group</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLabel" name="groupLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0" colspan="2">
+             <widget class="QLabel" name="infoLabel_2">
+              <property name="text">
+               <string>Additional info</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="2">
+             <widget class="QLabel" name="infoLabel_3">
+              <property name="text">
+               <string>NaN</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>596</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
